@@ -4,7 +4,7 @@
 # Enable cdable_vars so named directories work with 'cd <alias>'
 setopt cdable_vars
 
-function mkhash() {
+function mkalias() {
     emulate -L zsh
     setopt extended_glob
     local target_dir alias_name zshrc_path
